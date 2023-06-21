@@ -1,8 +1,12 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "cSpell.words": [
-    "Redditer",
-    "tanstack"
-  ]
+  "cSpell.words": ["Redditer", "tanstack"],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.format": true
+  }
 }
